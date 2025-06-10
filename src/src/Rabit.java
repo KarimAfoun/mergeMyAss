@@ -5,7 +5,10 @@ public class Rabit extends Animal {
 
     public void makeSound() {
         System.out.println("who is a rabbit");
+
         System.out.println(getName() + " says:  CHICKEN NOT");
+        System.out.println( getName() + " says:  CHICKEN NOT");
+
     }
 
 }
