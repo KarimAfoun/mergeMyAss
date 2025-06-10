@@ -7,4 +7,11 @@ public class Cat extends Animal {
     public void makeSound() {
         System.out.println(getName() + " says: Meow!");
     }
+
+    //_nima__
+    public String catSays() {
+        return getName() + " says: Meow!";
+    }
+    //_nima__
+
 }
