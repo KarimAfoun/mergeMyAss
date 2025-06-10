@@ -14,4 +14,12 @@ public class Cat extends Animal {
         return getName() + " says: Meow!";
     }
     //_____________________nima______________________
+
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + getName() + '\'' +
+                '}';
+    }
 }
